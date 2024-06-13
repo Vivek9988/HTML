@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox tutorial</title>
+    <style>
+        .container{
+            height :566px;
+            width: 100%;
+            border: 2px solid black;
+            display: flex;
+           /* flax properties for flax container */
+          flex-direction:row;
+          /* flex-direction: column; */
+          /* flex-direction: row-reverse; */
+          /* flex-wrap: wrap; */
+          justify-content: center;
+          justify-content: space-between;
+          align-items:center
+        }
+        .item{
+            height :100px;
+            width: 100px;
+            background-color: rgb(200, 255, 71);
+            border :2px solid rgb(222, 18, 18);
+            margin :10px;
+            padding: 2px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1>
+        This is my heading.
+
+    </h1>
+    <div class ="container">
+        <div class="item" id="item-1">First box</div>
+        <div class="item" id="item-2">second box</div>
+        <div class="item" id="item-3">Third box</div>
+        <div class="item" id="item-4">Fourth box</div>
+        <div class="item" id="item-5">Fifth box</div>
+        <div class="item" id="item-6">Sixth box</div>
+    </div>
+</body>
+</html>
